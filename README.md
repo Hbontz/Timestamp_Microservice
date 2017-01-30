@@ -10,11 +10,11 @@ A valid natural language date consists of a numeric day of the month and an Engl
 
 #### Natural Language Date
 
-*[http://localhost:8080/Sep 08 2001](http://localhost:8080/September%208,%202001)*
+*[http://a-timestamp-api.herokuapp.com/Sep 8 2001](http://a-timestamp-api.herokuapp.com/Sep 8 2001)*
 
 #### Unix Time
 
-*[http://localhost:8080/1000000000](http://localhost:8080/1000000000)*
+*[http://a-timestamp-api.herokuapp.com/1000000000](http://a-timestamp-api.herokuapp.com/100000000)*
 
 ### Example Output
 
