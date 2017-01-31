@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Timestamp Microservice</title>
+    <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'> 
+    <link rel="stylesheet" type="text/css" href="/style/main.css">
+  </head>
+  <body>
+    <div class="container box">
+      <div class="row">
+        <div class="col-md-6 col-md-offset-3">
+          <div class="header">Timestamp Microservice</div>
+          <div class="sectionTitles">Usage</div>
+          <p class="text">Pass a string as a parameter to this page's URL by appending a natural language date or a Unix timestamp.  If the string passed is valid, a natural language date and Unix timestamp will be returned.  If the string passed is invalid, null will be returned for both properties.</p>
+          <div class="sectionTitles">Example Input</div>
+          <p class="text">A valid natural language date consists of a numeric day of the month and an English language month (standard abbreviations accepted) in any order followed by the 4 digit year.  The Unix time can be positive or negative.</p><br><br> 
+          <div class="row">
+            <div class="col-md-6">
+              <div class="center text">Natural Language Date</div>
+              <a href="/September 8, 2001">
+                <div class="link center text">http://a-timestamp-api.herokuapp.com/Sep 8 2001</div>
+              </a><br>
+            </div>
+            <div class="col-md-6">
+              <div class="text center">UNIX Time</div>
+              <a href="/1000000000">
+                <div class="link text center">http://a-timestamp-api.herokuapp.com/1000000000</div>
+              </a>
+            </div>
+          </div>
+          <div class="sectionTitles">Example Output</div>
+          <div class="outputStyle text">{"unix": 1000000000, "natural": "September 8th, 2001"}<br><br>{"unix": null, "natural": null}</div>
+          <div class="bottom">by
+            <a class="gitLink" href="https://github.com/Hbontz/Timestamp_Microservice">Hilary Bontz (link to github)</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

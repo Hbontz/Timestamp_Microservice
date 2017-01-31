@@ -1,0 +1,30 @@
+{
+  "name": "timestamp",
+  "version": "1.0.0",
+  "description": "Accepts Unix time or natural language date and returns both if valid.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hbontz/Timestamp_Microservice.git"
+  },
+  "author": "Hbontz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hbontz/Timestamp_Microservice/issues"
+  },
+  "homepage": "https://github.com/Hbontz/Timestamp_Microservice#readme",
+  "dependencies": {
+    "express": "^4.14.1",
+    "moment": "^2.17.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^3.14.1",
+    "mocha": "^3.2.0",
+    "nodemon": "^1.11.0"
+  }
+}
