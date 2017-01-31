@@ -2,7 +2,7 @@
 
 ### Usage
 
-Pass a string as a parameter to this page's URL by appending a natural language date or a Unix timestamp. If the string passed is valid, a natural language date and Unix timestamp will be returned. If the string passed is invalid, null will be returned for both properties.
+Pass a string as a parameter to the URL by appending a natural language date or a Unix timestamp. If the string passed is valid, a natural language date and Unix timestamp will be returned. If the string passed is invalid, null will be returned for both properties.
 
 ### Example Input
 
